@@ -21,6 +21,10 @@ default_toolchain {
   cpu: "s390x"
   toolchain_identifier: "local"
 }
+default_toolchain {
+  cpu: "aarch64"
+  toolchain_identifier: "local"
+}
 
 default_toolchain {
   cpu: "ios_x86_64"
