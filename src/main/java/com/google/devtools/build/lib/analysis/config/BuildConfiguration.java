@@ -404,6 +404,8 @@ public final class BuildConfiguration {
                 return "ppc";
               case ARM:
                 return "arm";
+              case AARCH64:
+                return "aarch64";
               case S390X:
                 return "s390x";
               default:
